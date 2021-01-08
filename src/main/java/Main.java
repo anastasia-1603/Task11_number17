@@ -8,7 +8,7 @@ public class Main
         System.out.print("Enter text: ");
         Scanner scn = new Scanner(System.in);
         String text = scn.nextLine();
-        printResult(ListUtils.toString(Logic.findNumbers(text)));
+        printResult(ListUtils.toString(FinderNumbersInText.findNumbers(text)));
     }
 
     private static void printResult(String numbers)

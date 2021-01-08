@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Logic
+public class FinderNumbersInText
 {
     public static List<String> findNumbers(String text)
     {
